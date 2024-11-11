@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+body{
+    
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 19%;
+}
+.Logo{
+    font-size: 40px;
+    flex: 1;
+    color: rgb(82, 82, 255);
+}
+.Header ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/* .header li{
+    padding: 10px 10px;
+    margin: 0 30px;
+} */
+.Header li{
+    padding: 5px;
+ }
+li a{
+    text-decoration: none;
+    padding: 15px;
+}
+.Header li:first-child{
+    border: 1px solid rgb(154, 154, 154);
+    border-radius: 17px;
+}
+.callToAction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(100, 33, 255);
+    height: 500px;
+    padding: 0 19%;
+}
+.callToAction b{
+    font-size: 50px;
+    color: white;
+    padding: 10px 0;
+}
+.callToAction form{
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 15px;
+    text-align: center;
+}
+.callToAction input[type="text"]{
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 7px;
+    width: 25%;
+    font-size: 15px;
+    margin: 0 10px;
+}
+.callToAction input[type="button"]{
+    padding: 15px;
+    border: 1px solid black;
+    background-color: rgb(20, 20, 72);
+    color: white;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.greyBg{
+    background-color: gray;
+    height: 250px;
+    border-radius: 15px;
+    margin: 25px 19% 0;
+}
+.bottomMessage{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-image: url(woman.jpg);
+    background-size: cover;
+    height: 500px;
+    border-radius: 15px;
+    margin-top: 25px;
+    margin: 25px 19% 0;
+    box-sizing: border-box;
+}
+.message{
+    width: 30%;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
+}
+.message b{
+    font-size: 35px;
+}
+.message p{
+    font-size: 17px;
+    font-weight: lighter;
+    padding: 10px;
+}
+.message button{
+    border-radius: 25px;
+    padding: 15px;
+    background-color: rgb(20, 20, 72);
+    color: white;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    margin: 25px 19% 0;
+}
